@@ -20,10 +20,10 @@ def set_up_database(db_name):
     """
     Sets up SQLite database connection and returns cursor and connection.
     """
-    path = os.path.dirname(os.path.abspath(__file__))
-    conn = sqlite3.connect(path + "/" + db_name)
-    cur = conn.cursor()
+    conn = sqlite3.connect(db_name)
+    cur  = conn.cursor()
     return cur, conn
+
 
 def create_weather_type_table(cur, conn):
     """

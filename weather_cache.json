@@ -1,0 +1,1202 @@
+{
+    "detroit_2025-04-21 03:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 03:00:00",
+        "temp": 8.65,
+        "humidity": 62,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 5.14,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 04:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 04:00:00",
+        "temp": 8.92,
+        "humidity": 65,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 05:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 05:00:00",
+        "temp": 8.92,
+        "humidity": 69,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 6.69,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 06:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 06:00:00",
+        "temp": 9.2,
+        "humidity": 69,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 6.69,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 07:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 07:00:00",
+        "temp": 9.1,
+        "humidity": 71,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 7.72,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 08:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 08:00:00",
+        "temp": 8.93,
+        "humidity": 74,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 4.63,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 09:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 09:00:00",
+        "temp": 9.08,
+        "humidity": 75,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 5.66,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 10:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 10:00:00",
+        "temp": 8.71,
+        "humidity": 80,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.03,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 11:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 11:00:00",
+        "temp": 8.72,
+        "humidity": 83,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.54,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 12:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 12:00:00",
+        "temp": 9.54,
+        "humidity": 84,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 2.06,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 13:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 13:00:00",
+        "temp": 11.45,
+        "humidity": 89,
+        "weather": "Rain",
+        "description": "light rain",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 14:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 14:00:00",
+        "temp": 15.18,
+        "humidity": 85,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 5.02,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 15:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 15:00:00",
+        "temp": 19.03,
+        "humidity": 86,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 10.8,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 16:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 16:00:00",
+        "temp": 21.93,
+        "humidity": 64,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 2.24,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 17:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 17:00:00",
+        "temp": 23.24,
+        "humidity": 51,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 15.95,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 18:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 18:00:00",
+        "temp": 22.68,
+        "humidity": 52,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 14.4,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 19:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 19:00:00",
+        "temp": 21.89,
+        "humidity": 55,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 3.13,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 20:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 20:00:00",
+        "temp": 20.46,
+        "humidity": 59,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 3.13,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 21:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 21:00:00",
+        "temp": 19.46,
+        "humidity": 57,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 3.58,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 22:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 22:00:00",
+        "temp": 17.68,
+        "humidity": 60,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 4.02,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-21 23:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-21 23:00:00",
+        "temp": 15.86,
+        "humidity": 71,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 6.71,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-22 00:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-22 00:00:00",
+        "temp": 14.33,
+        "humidity": 71,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 2.24,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-22 01:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-22 01:00:00",
+        "temp": 13.7,
+        "humidity": 70,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 10.8,
+        "is_extreme": 0
+    },
+    "detroit_2025-04-22 02:00:00": {
+        "city": "Detroit",
+        "datetime": "2025-04-22 02:00:00",
+        "temp": 12.72,
+        "humidity": 69,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 7.72,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 03:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 03:00:00",
+        "temp": 13.76,
+        "humidity": 33,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 3.6,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 04:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 04:00:00",
+        "temp": 13.5,
+        "humidity": 36,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 4.63,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 05:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 05:00:00",
+        "temp": 12.81,
+        "humidity": 40,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 3.6,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 06:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 06:00:00",
+        "temp": 11.87,
+        "humidity": 42,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 3.13,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 07:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 07:00:00",
+        "temp": 11.38,
+        "humidity": 41,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 4.02,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 08:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 08:00:00",
+        "temp": 11.38,
+        "humidity": 43,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 09:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 09:00:00",
+        "temp": 10.91,
+        "humidity": 44,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 10:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 10:00:00",
+        "temp": 10.44,
+        "humidity": 46,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 11:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 11:00:00",
+        "temp": 10.97,
+        "humidity": 43,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 12:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 12:00:00",
+        "temp": 11.26,
+        "humidity": 43,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 5.66,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 13:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 13:00:00",
+        "temp": 11.71,
+        "humidity": 41,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 6.71,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 14:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 14:00:00",
+        "temp": 12.03,
+        "humidity": 42,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 5.66,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 15:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 15:00:00",
+        "temp": 11.76,
+        "humidity": 45,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 8.94,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 16:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 16:00:00",
+        "temp": 12.94,
+        "humidity": 41,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 6.17,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 17:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 17:00:00",
+        "temp": 12.64,
+        "humidity": 43,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 5.66,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 18:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 18:00:00",
+        "temp": 12.37,
+        "humidity": 49,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 19:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 19:00:00",
+        "temp": 12.48,
+        "humidity": 52,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 20:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 20:00:00",
+        "temp": 11.45,
+        "humidity": 63,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.63,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 21:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 21:00:00",
+        "temp": 11.35,
+        "humidity": 67,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.63,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 22:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 22:00:00",
+        "temp": 11.02,
+        "humidity": 69,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.63,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-21 23:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-21 23:00:00",
+        "temp": 11.01,
+        "humidity": 69,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 6.17,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-22 00:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-22 00:00:00",
+        "temp": 11.08,
+        "humidity": 70,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.47,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-22 01:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-22 01:00:00",
+        "temp": 11.06,
+        "humidity": 73,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 3.13,
+        "is_extreme": 0
+    },
+    "new_york_2025-04-22 02:00:00": {
+        "city": "New York",
+        "datetime": "2025-04-22 02:00:00",
+        "temp": 11.34,
+        "humidity": 75,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.02,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 03:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 03:00:00",
+        "temp": 14.38,
+        "humidity": 68,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 6.69,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 04:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 04:00:00",
+        "temp": 13.95,
+        "humidity": 71,
+        "weather": "Rain",
+        "description": "heavy intensity rain",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 05:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 05:00:00",
+        "temp": 12.74,
+        "humidity": 82,
+        "weather": "Rain",
+        "description": "moderate rain",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 06:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 06:00:00",
+        "temp": 13.73,
+        "humidity": 84,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 3.6,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 07:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 07:00:00",
+        "temp": 14.21,
+        "humidity": 89,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 2.68,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 08:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 08:00:00",
+        "temp": 15.72,
+        "humidity": 89,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 5.14,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 09:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 09:00:00",
+        "temp": 15.12,
+        "humidity": 76,
+        "weather": "Clouds",
+        "description": "few clouds",
+        "wind_speed": 7.2,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 10:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 10:00:00",
+        "temp": 14.33,
+        "humidity": 81,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 3.58,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 11:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 11:00:00",
+        "temp": 14.11,
+        "humidity": 83,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 4.92,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 12:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 12:00:00",
+        "temp": 13.21,
+        "humidity": 82,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 2.68,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 13:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 13:00:00",
+        "temp": 11.51,
+        "humidity": 83,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.02,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 14:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 14:00:00",
+        "temp": 10.14,
+        "humidity": 82,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 7.15,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 15:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 15:00:00",
+        "temp": 9.45,
+        "humidity": 80,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 8.75,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 16:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 16:00:00",
+        "temp": 9.59,
+        "humidity": 78,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 3.13,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 17:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 17:00:00",
+        "temp": 10.01,
+        "humidity": 75,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 4.02,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 18:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 18:00:00",
+        "temp": 11.05,
+        "humidity": 71,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 3.58,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 19:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 19:00:00",
+        "temp": 11.64,
+        "humidity": 68,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 9.77,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 20:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 20:00:00",
+        "temp": 12.39,
+        "humidity": 68,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 4.92,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 21:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 21:00:00",
+        "temp": 12.78,
+        "humidity": 69,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 4.02,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 22:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 22:00:00",
+        "temp": 12.92,
+        "humidity": 69,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 2.24,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-21 23:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-21 23:00:00",
+        "temp": 13.26,
+        "humidity": 66,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 2.24,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-22 00:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-22 00:00:00",
+        "temp": 12.82,
+        "humidity": 67,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-22 01:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-22 01:00:00",
+        "temp": 12.41,
+        "humidity": 67,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 1.79,
+        "is_extreme": 0
+    },
+    "chicago_2025-04-22 02:00:00": {
+        "city": "Chicago",
+        "datetime": "2025-04-22 02:00:00",
+        "temp": 11.87,
+        "humidity": 69,
+        "weather": "Clouds",
+        "description": "few clouds",
+        "wind_speed": 0.89,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 03:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 03:00:00",
+        "temp": 24.27,
+        "humidity": 75,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 04:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 04:00:00",
+        "temp": 24.14,
+        "humidity": 76,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 05:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 05:00:00",
+        "temp": 23.87,
+        "humidity": 76,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 06:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 06:00:00",
+        "temp": 23.7,
+        "humidity": 76,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 0.45,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 07:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 07:00:00",
+        "temp": 23.4,
+        "humidity": 76,
+        "weather": "Clouds",
+        "description": "few clouds",
+        "wind_speed": 5.14,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 08:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 08:00:00",
+        "temp": 23.32,
+        "humidity": 75,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 0.89,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 09:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 09:00:00",
+        "temp": 23.25,
+        "humidity": 74,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 0.89,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 10:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 10:00:00",
+        "temp": 23.1,
+        "humidity": 73,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 0.89,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 11:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 11:00:00",
+        "temp": 23.04,
+        "humidity": 72,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 0.45,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 12:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 12:00:00",
+        "temp": 23.68,
+        "humidity": 71,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 0.89,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 13:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 13:00:00",
+        "temp": 24.93,
+        "humidity": 71,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 14:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 14:00:00",
+        "temp": 26.02,
+        "humidity": 68,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.79,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 15:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 15:00:00",
+        "temp": 26.67,
+        "humidity": 67,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 16:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 16:00:00",
+        "temp": 27.87,
+        "humidity": 62,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 0.45,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 17:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 17:00:00",
+        "temp": 27.44,
+        "humidity": 62,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 2.24,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 18:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 18:00:00",
+        "temp": 27.7,
+        "humidity": 62,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.79,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 19:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 19:00:00",
+        "temp": 27.39,
+        "humidity": 62,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 2.24,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 20:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 20:00:00",
+        "temp": 27.51,
+        "humidity": 63,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 21:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 21:00:00",
+        "temp": 26.94,
+        "humidity": 65,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 22:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 22:00:00",
+        "temp": 26.24,
+        "humidity": 68,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 0.89,
+        "is_extreme": 0
+    },
+    "miami_2025-04-21 23:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-21 23:00:00",
+        "temp": 25.3,
+        "humidity": 72,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "miami_2025-04-22 00:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-22 00:00:00",
+        "temp": 24.61,
+        "humidity": 74,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 0.89,
+        "is_extreme": 0
+    },
+    "miami_2025-04-22 01:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-22 01:00:00",
+        "temp": 24.24,
+        "humidity": 74,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.79,
+        "is_extreme": 0
+    },
+    "miami_2025-04-22 02:00:00": {
+        "city": "Miami",
+        "datetime": "2025-04-22 02:00:00",
+        "temp": 24.09,
+        "humidity": 74,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.34,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 03:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 03:00:00",
+        "temp": 16.48,
+        "humidity": 73,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 7.72,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 04:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 04:00:00",
+        "temp": 14.75,
+        "humidity": 79,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 4.63,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 05:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 05:00:00",
+        "temp": 14.64,
+        "humidity": 79,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 06:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 06:00:00",
+        "temp": 13.35,
+        "humidity": 87,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 2.57,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 07:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 07:00:00",
+        "temp": 14.59,
+        "humidity": 78,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 2.06,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 08:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 08:00:00",
+        "temp": 13.83,
+        "humidity": 82,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 1.54,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 09:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 09:00:00",
+        "temp": 13.59,
+        "humidity": 83,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 2.57,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 10:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 10:00:00",
+        "temp": 12.45,
+        "humidity": 91,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 0,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 11:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 11:00:00",
+        "temp": 13.33,
+        "humidity": 84,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 1.54,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 12:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 12:00:00",
+        "temp": 12.16,
+        "humidity": 88,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 1.54,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 13:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 13:00:00",
+        "temp": 12.38,
+        "humidity": 88,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 1.54,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 14:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 14:00:00",
+        "temp": 12.61,
+        "humidity": 88,
+        "weather": "Mist",
+        "description": "mist",
+        "wind_speed": 2.57,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 15:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 15:00:00",
+        "temp": 13.6,
+        "humidity": 85,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 2.06,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 16:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 16:00:00",
+        "temp": 15.14,
+        "humidity": 81,
+        "weather": "Clouds",
+        "description": "overcast clouds",
+        "wind_speed": 3.09,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 17:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 17:00:00",
+        "temp": 17.38,
+        "humidity": 72,
+        "weather": "Clouds",
+        "description": "scattered clouds",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 18:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 18:00:00",
+        "temp": 18.67,
+        "humidity": 68,
+        "weather": "Haze",
+        "description": "haze",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 19:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 19:00:00",
+        "temp": 19.58,
+        "humidity": 63,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 4.12,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 20:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 20:00:00",
+        "temp": 20.17,
+        "humidity": 60,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 5.66,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 21:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 21:00:00",
+        "temp": 20.19,
+        "humidity": 61,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 6.17,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 22:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 22:00:00",
+        "temp": 19.95,
+        "humidity": 61,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 6.17,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-21 23:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-21 23:00:00",
+        "temp": 20.43,
+        "humidity": 56,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 6.17,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-22 00:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-22 00:00:00",
+        "temp": 19.15,
+        "humidity": 61,
+        "weather": "Haze",
+        "description": "haze",
+        "wind_speed": 5.66,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-22 01:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-22 01:00:00",
+        "temp": 18.27,
+        "humidity": 65,
+        "weather": "Clear",
+        "description": "clear sky",
+        "wind_speed": 5.14,
+        "is_extreme": 0
+    },
+    "los_angeles_2025-04-22 02:00:00": {
+        "city": "Los Angeles",
+        "datetime": "2025-04-22 02:00:00",
+        "temp": 16.17,
+        "humidity": 74,
+        "weather": "Clouds",
+        "description": "broken clouds",
+        "wind_speed": 4.63,
+        "is_extreme": 0
+    }
+}
