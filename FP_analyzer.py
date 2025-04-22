@@ -10,17 +10,14 @@ class WeatherHotelAnalyzer:
         self.hotel_db_path = hotel_db_path
         self.weather_db_path = weather_db_path
         
-        # Verify database files exist
         if not os.path.exists(hotel_db_path):
             raise FileNotFoundError(f"Hotel database not found: {hotel_db_path}")
         if not os.path.exists(weather_db_path):
             raise FileNotFoundError(f"Weather database not found: {weather_db_path}")
         
-        # Create connections to both databases
         self.hotel_conn = sqlite3.connect(hotel_db_path)
         self.weather_conn = sqlite3.connect(weather_db_path)
         
-        # Create output directory for charts
         os.makedirs('charts', exist_ok=True)
         
     def close(self):
@@ -32,14 +29,12 @@ class WeatherHotelAnalyzer:
             
     def get_merged_data(self):
         """Join hotel and weather data based on location and date"""
-        # Get hotel data
         hotel_df = pd.read_sql_query('''
             SELECT hotel_name, location, price, rating, 
                    review_count, scrape_date, check_in_date
             FROM hotels
         ''', self.hotel_conn)
         
-        # Get weather data
         weather_df = pd.read_sql_query('''
             SELECT wd.city as location, wd.datetime, wd.temp, 
                    wd.humidity, wd.wind_speed, wd.description,
@@ -48,11 +43,9 @@ class WeatherHotelAnalyzer:
             JOIN Weather_Type wt ON wd.weather_type_id = wt.id
         ''', self.weather_conn)
         
-        # Format dates for matching
         hotel_df['check_in_date'] = pd.to_datetime(hotel_df['check_in_date']).dt.date
         weather_df['date'] = pd.to_datetime(weather_df['datetime']).dt.date
         
-        # Merge datasets on location and date
         merged_df = pd.merge(
             hotel_df,
             weather_df,
@@ -70,10 +63,8 @@ class WeatherHotelAnalyzer:
             print("No data available for price-by-weather plot.")
             return
 
-        # Compute average price and temperature by city
         stats = df.groupby('location').agg({'price': 'mean', 'temp': 'mean'}).reset_index()
 
-        # Plot grouped bar chart with twin axis
         x = np.arange(len(stats['location']))
         width = 0.35
 
@@ -88,7 +79,6 @@ class WeatherHotelAnalyzer:
         ax2.bar(x + width/2, stats['temp'], width, label='Avg Temperature')
         ax2.set_ylabel('Average Temperature (°C)')
 
-        # Legends
         ax1.legend(loc='upper left')
         ax2.legend(loc='upper right')
 
@@ -122,7 +112,6 @@ class WeatherHotelAnalyzer:
             print("No data available for price-temp line plot.")
             return
 
-        # Group by temperature and average price
         temp_stats = df.groupby('temp').agg({'price': 'mean'}).reset_index().sort_values('temp')
 
         plt.figure()
@@ -135,6 +124,47 @@ class WeatherHotelAnalyzer:
         plt.close()
         print(f"Saved line chart to {save_path}")
         
+    def analyze_price_by_weather_condition(self):
+        """Calculate average hotel price per city for different weather conditions."""
+        df = self.get_merged_data()
+        if df.empty:
+            print("No data available for price-by-weather-condition analysis.")
+            return
+
+        weather_stats = df.groupby(['location', 'weather_type']).agg(
+            avg_price=pd.NamedAgg(column='price', aggfunc='mean')
+        ).reset_index()
+
+        print("\nANALYSIS: Average Hotel Price per City for Different Weather Conditions\n")
+        for _, row in weather_stats.iterrows():
+            print(f"{row['location']} ({row['weather_type']}): Avg Price = ${row['avg_price']:.2f}")
+
+    def analyze_temp_price_correlation(self):
+        """Perform correlation analysis between temperature and hotel prices."""
+        df = self.get_merged_data()
+        if df.empty:
+            print("No data available for temperature-price correlation analysis.")
+            return
+
+        correlation = df['price'].corr(df['temp'])
+        print("\nANALYSIS: Correlation Between Temperature and Hotel Prices\n")
+        print(f"Correlation coefficient: {correlation:.2f}")
+
+    def analyze_weather_impact_on_pricing(self):
+        """Analyze the impact of weather conditions on hotel pricing."""
+        df = self.get_merged_data()
+        if df.empty:
+            print("No data available for weather impact analysis.")
+            return
+
+        weather_impact = df.groupby('weather_type').agg(
+            avg_price=pd.NamedAgg(column='price', aggfunc='mean')
+        ).reset_index()
+
+        print("\nANALYSIS: Impact of Weather Conditions on Hotel Pricing\n")
+        for _, row in weather_impact.iterrows():
+            print(f"{row['weather_type']}: Avg Price = ${row['avg_price']:.2f}")
+
     def generate_all_visualizations(self):
         """Helper to generate all charts"""
         self.plot_price_by_weather()
@@ -142,7 +172,7 @@ class WeatherHotelAnalyzer:
         self.plot_price_temp_line()
 
     def run_analysis(self):
-        """Run all analyses and print detailed results"""
+        """Run all analyses and print detailed results."""
         print("\n===== WEATHER-OR-NOT ANALYSIS RESULTS =====\n")
         merged_df = self.get_merged_data()
         if merged_df.empty:
@@ -164,7 +194,10 @@ class WeatherHotelAnalyzer:
         corr = merged_df['price'].corr(merged_df['temp'])
         print(f"Correlation coefficient between temperature and hotel price: {corr:.2f}\n")
 
-        # Generate visualizations
-        print("Generating visualizations...")
+        self.analyze_price_by_weather_condition()
+        self.analyze_temp_price_correlation()
+        self.analyze_weather_impact_on_pricing()
+
+        print("\nGenerating visualizations...")
         self.generate_all_visualizations()
         print("\nAnalysis complete!")
