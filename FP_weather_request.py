@@ -116,20 +116,23 @@ def update_cache(city_dict, cache_file):
     if not isinstance(cache, dict):
         cache = {}
 
-    # Update this to however many days you want history for
-    start_date = datetime.now() - timedelta(days=1)
-    date_ranges = get_unix_range_list(start_date, 1)
+    # Multiple historical dates: May 21–27, 2023
+    start_date = datetime(2025, 4, 9)
+    date_ranges = get_unix_range_list(start_date, 2)
 
     added = 0
 
     for date_str, start_ts, end_ts in date_ranges:
         for city, coords in city_dict.items():
+            if added >= 25:
+                break
+
             data = fetch_history(city, coords, start_ts, end_ts)
             if data:
                 parsed_list = parse_history_data(data, city)
                 for item in parsed_list:
                     key = build_cache_key(city, item['datetime'])
-                    if key not in cache:
+                    if key not in cache and added < 25:
                         cache[key] = item
                         added += 1
 
@@ -145,15 +148,14 @@ def main():
         return
 
     city_dict = get_json_content(cities_file)
-    total_added = update_cache(city_dict, cache_file)
+    added = update_cache(city_dict, cache_file)
 
     print(f"\n✅ Finished caching process.")
     print(f"Total cities processed: {len(city_dict)}")
-    print(f"Total new entries added: {total_added}")
+    print(f"New entries added: {added}")
     print(f"Cache file saved to: {cache_file}\n")
 
     export_cache_to_csv(cache_file, "weather_cache.csv")
-
 
 if __name__ == "__main__":
     main()

@@ -246,8 +246,8 @@ def main():
     scraper = BookingScraper(db_path=db_file)
 
     cities = ["Detroit", "New York", "Chicago", "Miami", "Los Angeles"]
-    check_in_date = "2025-04-22"
-    check_out_date = "2025-04-23" 
+    check_in_date = "2025-04-24"
+    check_out_date = "2025-04-25" 
 
     try:
         all_hotels = scraper.scrape_multiple_cities(cities, check_in_date, check_out_date)
